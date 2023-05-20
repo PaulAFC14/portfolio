@@ -1,0 +1,356 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #3C3C3C;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2{
+    color: #F229BA;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    color: #3C3C3C;
+    font-weight: 600;
+    margin: 2.5vh 0 1vh 0;
+    font-size: 1.25em;
+}
+
+@media (max-width: 142.5vh) {
+
+    .contact-container {
+        color: #000;
+        display: flex;
+        justify-content: center;
+    }
+      
+    .contact {
+        margin: 0 10px; /* Opcional: Agrega margen entre los elementos */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .contact img{
+        margin: 3vh;
+        width: 4vh;
+        height: 4vh;
+    }
+
+
+    .row{
+        width: 100vw;
+        /*background-color: cyan;*/
+
+    }
+
+    .profile{
+        margin: 5vh calc((100vw - 37.5vh) / 2);
+        width: 37.5vh;
+        height: 80vh;
+        border-radius: 5vh;
+    }
+
+    .profile img {
+        width: 37.5vh;
+        height: 80vh;
+        border-radius: 5vh;
+    }
+
+    .main-content{
+        width: 80vw;
+        margin-left: 10vw;
+        
+        border-radius: 5vh;
+    }
+
+
+    .tech-group{
+        margin-left: 0;
+        width: 80vw;
+        padding: auto;
+        
+    }
+
+    .tech {
+        display: inline-block;
+        margin: 1vh;
+        width: 6.5vh;
+        height: 6.5vh;
+        border-radius: 10vh;
+        background-color: #f0f0f0;
+    }
+
+    .tech img{
+        margin: 1.5vh;
+        width: 3.5vh;
+        height: 3.5vh;
+    }
+
+
+
+    .personal-data{
+        color: #B4B4B4;
+        font-weight: normal;
+        font-size: 4vw;
+    }
+
+    i{
+        color: #B4B4B4;
+        font-size: 1.45em;
+    }
+
+    .about{
+        color: #B4B4B4;
+        font-size: 3.65vw;
+        line-height: 180%;
+        font-weight: normal;
+    }
+
+    .subtitle{
+        font-size: 4.25vw;
+    }
+
+    h1{
+        font-size: 6.5vw;
+    }
+
+    h2{
+        font-size: 5.25vw;
+    }
+
+    .mi-projects{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10vw;
+        font-size: 4.25vw;
+    }
+
+    .mi-projects h3{
+        display: inline-block;
+        font-size: 4.25vw;
+    }
+
+    .mi-projects a h3{
+        display: inline-block;
+        font-weight: normal;
+        font-size: 4vw;
+        color: #B4B4B4;
+    }
+
+    .mi-projects a h3 i{
+        color: #B4B4B4;
+        font-size: 4.25vw;
+    }
+
+    .projects{
+        width: 100vw;
+        padding-left: 10vw;
+    }
+
+    .project{
+        display: block;
+        padding-top: 4vh;
+        margin-bottom: 5vh;
+        width: 80vw;
+        height: 120vw;
+        background-color: rgba(250, 250, 250, 1);
+        border-radius: 5vh;
+    }
+    
+    .project h3{
+        margin: 0;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .logo-app{
+        margin: 4.5vw 20vw;
+        width: 40vw;
+        height: 40vw;
+        background-color: #f0f0f0;
+        border-radius: 4vh;
+    }
+
+    .card-margin {
+        margin-top: 1vh;
+        margin-left: 3vh;
+    }
+}
+
+
+
+
+/*COMPUTER*/
+@media (min-width: 142.5vh) {
+    h1{
+        font-size: 2.75vh;
+    }
+
+    h2{
+        font-size: 2.25vh;
+    }
+
+
+    .contact-container {
+        color: #000;
+        display: flex;
+        justify-content: center;
+    }
+      
+    .contact {
+        margin: 0 10px; /* Opcional: Agrega margen entre los elementos */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .contact img{
+        margin: 3vh;
+        width: 4vh;
+        height: 4vh;
+    }
+
+
+    .row{
+        margin: 0 calc((100vw - 123.1vh) / 2);
+        width: 123.1vh;
+        
+    }
+
+    .profile{
+        display: inline-block;
+        width: 37.5vh;
+        height: 80vh;
+        border-radius: 5vh;
+    }
+
+    .profile img {
+        width: 37.5vh;
+        height: 100%;
+        border-radius: 5vh;
+    }
+
+    .main-content{
+        display: table-cell;
+        vertical-align: top;
+        display: inline-block;
+        margin-left: 10vh;
+        width: 75vh;
+        height: 37.5vh;
+    }
+
+    .subtitle{
+        font-size: 1.8vh;
+    }
+
+    .tech-group{
+        margin-left: 0;
+        width: 75vh;
+        padding: auto;
+        
+    }
+
+    .tech {
+        display: inline-block;
+        margin: 1vh;
+        width: 6.5vh;
+        height: 6.5vh;
+        border-radius: 10vh;
+        background-color: #f0f0f0;
+
+    }
+
+    .tech img{
+        margin: 1.5vh;
+        width: 3.5vh;
+        height: 3.5vh;
+    }
+
+
+    .personal-data{
+        color: #B4B4B4;
+        font-weight: normal;
+        font-size: 1.8vh;
+    }
+
+    i{
+        color: #B4B4B4;
+        font-size: 1.45em;
+    }
+
+    .about{
+        color: #B4B4B4;
+        font-size: 1.75vh;
+        line-height: 180%;
+        font-weight: normal;
+    }
+
+    .mi-projects{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.8vh;
+    }
+
+    .mi-projects h3{
+        display: inline-block;
+    }
+
+    .mi-projects a h3{
+        display: inline-block;
+        font-weight: normal;
+        font-size: 1.75vh;
+        color: #B4B4B4;
+    }
+
+    .mi-projects a h3 i{
+        color: #B4B4B4;
+        font-size: 1.75vh;
+    }
+
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        margin: 0 calc((100vw - 123.1vh) / 2);
+        width: 124vh;
+    }
+
+    .project{
+        display: table-cell;
+        vertical-align: top;
+        display: inline-block;
+        width: 38vh;
+        height: 57vh;
+        background-color: rgba(250, 250, 250, 1);
+        border-radius: 5vh;
+        /*box-shadow: 0px 2.5px 10px rgba(240, 240, 240, 1);*/
+    }
+
+    .project h3{
+        margin: 0;
+        font-size: 1.8vh;
+        text-align: center;
+    }
+
+    .logo-app{
+        margin: 4.5vh 9vh;
+        width: 20vh;
+        height: 20vh;
+        background-color: #f0f0f0;
+        border-radius: 4vh;
+    }
+
+    .card-margin {
+        margin-top: 1vh;
+        margin-left: 3vh;
+    }
+}
